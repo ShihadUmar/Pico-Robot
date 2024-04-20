@@ -8,7 +8,6 @@
     <style>
         body {
             overscroll-behavior: contain;
-            background-color: #ffffff;
             width: 100%;
             height: 100%;
             padding: 0;
@@ -22,20 +21,18 @@
             align-items: center;
         }
         #svg {
-            height: 100vw*(16/9);
-            width: 100vw;
+            width: 100%;
         }
         @media (min-aspect-ratio: 9/16) {
             #svg {
-                height: 100vh;
-                width: 100vh*0.5625;
+                height: 100%
             }
         }
     </style>
 </head>
 <body>
     <div class="svg-container">
-        <svg id="svg" viewBox="0 0 900 1600" version="1.1" id="svg1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+        <svg id="svg" width="900" height="1600" viewBox="0 0 900 1600" version="1.1" id="svg1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
         <defs id="defs1" />
         <g id="layer1">
             <g id="layer1-7" transform="matrix(0.71765322,0,0,0.71765322,46.320064,-81.593424)">
